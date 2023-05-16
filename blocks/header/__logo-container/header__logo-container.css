@@ -1,0 +1,12 @@
+.header__logo-container {
+  min-height: 42px;
+  max-width: calc((100vw - 320px) / (768 - 320) * (176 - 142) + 142px);
+}
+
+
+@media screen and (min-width: 768px) {
+  .header__logo-container {
+    max-width: 176px;
+    min-height: 56px;
+  }
+}

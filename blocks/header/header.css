@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.woff2) format("woff2"),
+    url(../fonts/Inter-Regular.woff) format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Black.woff2) format("woff2"),
+    url(../fonts/Inter-Black.woff) format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Bold.woff2) format("woff2"),
+    url(../fonts/Inter-Bold.woff) format("woff");
+  font-weight: bold;
+}
+
+.header {
+  font-family: "Inter";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+  max-width: 288px;
+  min-width: calc((100vw - 320px) / (768 - 320) * (720 - 288) + 288px);
+  padding-top: calc((100vw - 320px) / (768 - 320) * (28 - 16) + 16px);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    min-width: calc((100vw - 768px) / (1024 - 768) * (928 - 720) + 720px);
+    padding-top: 28px;
+  }}
+
+  @media screen and (min-width: 1024px) {
+    .header {
+      max-width: 928px;
+      min-width: calc((100vw - 1024px) / (1280 - 1024) * (1184 - 928) + 928px);
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .header {
+      min-width: 1184px;
+    }
+  }
