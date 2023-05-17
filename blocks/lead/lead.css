@@ -1,0 +1,16 @@
+.lead {
+  font-family: "Inter";
+  margin: 45px auto 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    margin-top: calc((100vw - 1024px) / (1280 - 1024) * (52 - 45) + 45px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin-top: 52px;
+  }
+}

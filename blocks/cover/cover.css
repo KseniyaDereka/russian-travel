@@ -1,0 +1,45 @@
+.cover {
+  font-family: "Inter";
+  margin-top: calc((100vw - 320px) / (768 - 320) * (90 - 66) + 66px);
+  background-image: url(../../images/cover-trains.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  padding-top: calc(200 / 320 * 100%);
+}
+
+.cover:hover .cover__overlay {
+  opacity: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 92px auto 0;
+    width: calc((100vw - 1024px) / (1280 - 1024) * (1184 - 1024) + 1024px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 92px auto 0;
+  }
+}

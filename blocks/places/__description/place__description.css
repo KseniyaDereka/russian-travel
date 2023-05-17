@@ -1,0 +1,19 @@
+.place__description {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place__description {
+    font-size: calc((100vw - 768px) / (1024 - 768) * (18 - 16) + 16px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__description {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
