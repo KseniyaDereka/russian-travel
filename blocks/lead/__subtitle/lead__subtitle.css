@@ -2,7 +2,6 @@
   font-size: calc((100vw - 320px) / (768 - 320) * (30 - 16) + 16px);
   font-weight: 400;
   line-height: calc((100vw - 320px) / (768 - 320) * (36 - 20) + 20px);
-  font-weight: 400;
   text-align: center;
   white-space: pre-line;
   margin-top: calc((100vw - 320px) / (768 - 320) * (32 - 16) + 16px);
