@@ -1,4 +1,4 @@
-.header__lang-choice {
+.header__lang-links {
   font-weight: 400;
   font-size: calc((100vw - 320px) / (768 - 320) * (24 - 18) + 18px);
   line-height: 28px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header__lang-choice {
+  .header__lang-links {
     margin-top: 10px;
     font-size: 24px;
   }
