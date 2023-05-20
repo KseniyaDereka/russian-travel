@@ -1,0 +1,17 @@
+.content {
+  margin: 48px 0 64px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    margin-top: 56px;
+    margin-bottom: 92px;
+  }
+}

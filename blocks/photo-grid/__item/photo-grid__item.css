@@ -4,14 +4,14 @@
 }
 @media screen and (min-width: 623px) {
   .photo-grid__item {
-  max-height: calc((100vw - 623px) / (768 - 623) * (264 - 216) + 216px);
+  max-height: 216px;
   }
 }
 
 
 @media screen and (min-width: 768px) {
   .photo-grid__item {
-    max-height: calc((100vw - 768px) / (1024 - 768) * (225 - 264) + 264px);
+    max-height: 264px;
   }
 }
 

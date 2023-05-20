@@ -7,10 +7,8 @@
   -ms-flex-direction: column;
   flex-direction: column;
   list-style: none;
-  margin: 69px auto 0;
+  margin: 0;
   padding: 0;
-  max-width: 288px;
-  padding-bottom: 24px;
   gap: 32px;
 }
 
@@ -21,20 +19,6 @@
     -ms-flex-direction: row;
     flex-direction: row;
     gap: 18px;
-    max-width: calc((100vw - 768px) / (1024 - 768) * (928 - 720) + 720px);
-    margin-top: calc((100vw - 768px) / (1024 - 768) * (91 - 86) + 86px);
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .footer__nav-list {
-    max-width: calc((100vw - 1024px) / (1280 - 1024) * (1184 - 928) + 928px);
-    margin-top: 91px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__nav-list {
-    max-width: 1184px;
-  }
-}

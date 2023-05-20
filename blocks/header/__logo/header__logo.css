@@ -1,6 +1,8 @@
 .header__logo {
   min-height: 42px;
-  max-width: calc((100vw - 320px) / (768 - 320) * (176 - 142) + 142px);
+  max-width: 142px;
+  margin: 0;
+  padding: 0;
 }
 
 

@@ -5,7 +5,7 @@
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-  padding: calc((100vw - 320px) / (768 - 320) * (84 - 64) + 64px) calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px) 0;
+  padding: 64px 16px 0;
   margin: 0;
   gap: 12px;
   justify-items: center;
@@ -14,7 +14,7 @@
 @media screen and (min-width: 768px) {
   .photo-grid__gallery {
     gap: 16px;
-    padding: calc((100vw - 768px) / (1024 - 768) * (92 - 84) + 84px) calc((100vw - 768px) / (1024 - 768) * (48 - 24) + 24px) 0;
+    padding: 84px 24px 0;
   }
 }
 
